@@ -1,13 +1,13 @@
 #pragma once
 
 #include <stdio.h>
+#include <string.h>
 #include <time.h>
 
-typedef unsigned char u8;
-typedef unsigned short u16;
-typedef unsigned int u32;
-typedef int s32;
 typedef unsigned long long u64;
+typedef unsigned int u32;
+typedef unsigned short u16;
+typedef unsigned char u8;
 
 #define NATURES_MAX         (25)    // Number of natures
 #define SEED_MAX_B          (24)    // Hours in a day
